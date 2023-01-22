@@ -9,5 +9,8 @@ print("Hello world")
 print(os.listdir)
 
 # VARIABLES AND DATATYPES
-
+ a=input("enter first number: ")
+  square=a*a
+  print("square of a is:" square)
+  
 
