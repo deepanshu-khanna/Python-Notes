@@ -43,6 +43,39 @@ word="amazing"
 word[1:6:2] # output: mzn, print every second character
 word[1::2]
 
+Story="Once Upon a time there was the chief god of universe....... IYKYK"
+# STRING FUNCTIONS
+
+print(len(Story))
+print(Story.endswith("IYKYK"))
+print(Story.count("O"))
+
+print(Story.capatilize()) #Capitalizes the first word
+print(story.find("Once"))
+print(story.replace("Once","One")
+
+#ESCAPE SEQUENCE CHYARACTERS
+
+#\n next line
+#\t tab space
+# \' single quote
+# \\ backslash
+
+#CHAPTER 4
+#LIST AND TUPLES
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
