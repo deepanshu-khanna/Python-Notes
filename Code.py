@@ -64,12 +64,52 @@ print(story.replace("Once","One")
 #CHAPTER 4
 #LIST AND TUPLES
 
+'''Python lists are containers to store values of any type'''
+
+a=[1,2,3,4,6]
+print(a[2])
+#index for list starts at 0
+
+a[0] =98
+
+print(a)
+ '''We can create a list with items of different types'''
+C=[45,"Saif", False,6.9]
+print(C[0:3]) # Slicing of list
+print(C[-3:])
+
+
+L1=[1,2,3,7,5,,6,90,8]
+#lists are mutable
+
+L1.Sort()
+L1.reverse()
+L1.append(9)#adds at the end of list
+L1.insert(3,8) #inserts 8 at index 3
+L1.pop(2)# Reomve from index 2
+
+#TUPLE
+t=(1,2,3,4)
+'''Tuple is not mutable'''
+      
+t1=(1) # wrong way to declare a tuple with single element
+t1=(1,)#Tuple with single element
+ print(t.count(1)) # count no of occurence of 1
+print(t.index(1)) # return index of 1     
+ 
+      
 
 
 
 
-
-
+      
+      
+      
+      
+      
+      
+      
+      
 
 
 
